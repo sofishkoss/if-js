@@ -21,13 +21,17 @@
 //     }
 // console.log(arrMult)
 
-for (let i = 0; i < 10; i++);
-alert(i);
+// for (let i = 0; i < 10; i++);
+// alert(i);
 
-// let i;
+
+let arr = [2, 5, 8, 15, 0, 6, 20, 3];
+let arrNamber = 1;
+ for (let i = 0; i>5, i<10; i++)
+console.log(arrNamber);
+// let переменная .push
+
 // let arr = [];
-// let arr = [2, 5, 8, 15, 0, 6, 20, 3];
-// for (let i>5; i<10);
-//     alert(arr[i]);
 
-let palindrome
+
+// let palindrome
