@@ -1,24 +1,28 @@
 // let user = 'John Doe';
-// alert(user);
+// console.log(user);
 //
 // let student = 'sofia';
-// alert(student);
+// console.log(student);
 //
 // user = student;
-// alert(user);
-
+// console.log(user);
+//
 // let test = 1;
 // test++;
-// bool istest = bool(test);
-// alert(test);
+// console.log(test)
+// Boolean(test)
+// console.log(Boolean(test));
 
-// let arr=[];
+
 // let arr = [2, 3, 5, 8];
-// for (let arr[0]*arr[1]*arr[2]*arr[3]);
-// alert(arr);
+// let arrMult = 1
+// for (let i = 0; i < arr.length; i++) {
+//         arrMult *= arr[i]
+//     }
+// console.log(arrMult)
 
-// for (let i = 0; i < 10; i++);
-// alert(i);
+for (let i = 0; i < 10; i++);
+alert(i);
 
 // let i;
 // let arr = [];
