@@ -25,13 +25,63 @@
 // alert(i);
 
 
-let arr = [2, 5, 8, 15, 0, 6, 20, 3];
-let arrNamber = 1;
- for (let i = 0; i>5, i<10; i++)
-console.log(arrNamber);
-// let переменная .push
+// let arr = [2, 5, 8, 15, 0, 6, 20, 3];
+// let arrNumber = 1;
+// let i = 0;
+//  for (let i = 0; i>5, i<10; i++ ){
+//   arrNumber*= arr[1]
+//  }
+//   if (i>5 ){
+//    console.log(i)}
+//   else if (i<10){
+//    console.log(arrNumber)}
+//  else {
+//    console.log('Не подходит')
+//   }
+// console.log(arrNumber);
 
-// let arr = [];
 
 
-// let palindrome
+// let palindrome = 'шалаш';
+// if (isPalindrome(palindrome)){
+//  console.log(palindrome)
+// } else {
+//  console.log('Нет')
+// }
+
+// function palindrome(str) {
+//  return true;
+// }
+// if (palindrome()) {
+//  console.log(palindrome())
+// } else{
+//  console.log('nan')
+// }
+
+
+// let a = 7;
+// let b = 2;
+// let w = Math.min(a,b);
+// console.log(w)
+//
+// let x = 33;
+// let y = 8;
+// let z = Math.max(x,y);
+// console.log(z)
+//
+// let g = 9;
+// let o = 90;
+// if (g>o){
+//  console.log(g, 'g больше')
+// } else{
+//  console.log(o, 'o больше')
+// }
+
+const length = 10;
+const min = 0;
+const max = 100;
+const numbers = [...Array(length)];
+for (let i = 0; i < numbers.length; i++) {
+ numbers[i] = Math.round(Math.random()*100);
+}
+console.log(numbers);
