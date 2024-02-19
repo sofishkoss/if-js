@@ -77,11 +77,19 @@
 //  console.log(o, 'o больше')
 // }
 
-const length = 10;
-const min = 0;
-const max = 100;
-const numbers = [...Array(length)];
+let length = 10;
+let min = 0;
+let max = 100;
+let numbers = [...Array(length)];
 for (let i = 0; i < numbers.length; i++) {
  numbers[i] = Math.round(Math.random()*100);
 }
+
+numbers.forEach(function(item, i, numbers) {
+ console.log( i + ": " + item + " (массив:" + numbers + ")" );
+});
+let x = numbers , y = 10;
+console.log(x/y);
 console.log(numbers);
+
+
