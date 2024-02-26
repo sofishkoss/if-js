@@ -77,28 +77,28 @@
 // }
 
 
-// let length = 10;
-// let min = 0;
-// let max = 100;
-// let numbers = [...Array(length)];
-// for (let i = 0; i < numbers.length; i++) {
-//     numbers[i] = Math.round(Math.random() * 100);
-// }
-// const newArr = numbers.map(function (item, i, numbers) {
-//     console.log(i + ": " + item + " (массив:" + numbers + ")");
-//     if (item === 0) {
-//         return 'zero'
-//     }
-//     if (item % 100 === 0) {
-//         return item / 100 + 'zero zero'
-//     }
-//     if (item % 10 === 0) {
-//         return item / 10 + 'zero'
-//     }
-//     return item
-// });
-// console.log("newArr", newArr)
-// console.log(numbers);
+let length = 10;
+let min = 0;
+let max = 100;
+let numbers = [...Array(length)];
+for (let i = 0; i < numbers.length; i++) {
+    numbers[i] = Math.round(Math.random() * 100);
+}
+const newArr = numbers.map(function (item, i, numbers) {
+    console.log(i + ": " + item + " (массив:" + numbers + ")");
+    if (item === 0) {
+        return 'zero'
+    }
+    if (item % 100 === 0) {
+        return item / 100 + 'zero zero'
+    }
+    if (item % 10 === 0) {
+        return item / 10 + 'zero'
+    }
+    return item
+});
+console.log("newArr", newArr)
+console.log(numbers);
 
 
 
