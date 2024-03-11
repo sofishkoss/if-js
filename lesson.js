@@ -1,9 +1,22 @@
-function sum(color){
-    const colors = ['magenta', 'cyan', 'firebrick', 'springgreen', 'skyblue'];
-    // for (let i = 0; i < colors.length; i++) {
-    //     let a = document.getElementById("text1");
-    //     a.style.color = colors[i];
-    function onclick=document.getElementById('text1').style.color = '0';
+let currentColor=0;
+const colors = ['magenta', 'cyan', 'firebrick', 'springgreen', 'skyblue'];
 
-    }
+function change1() {
+    currentColor++;
+    if (currentColor>5) currentColor=0;
+    let a = document.getElementById("text1");
+    a.style.color = colors[currentColor];
+}
+
+function change2(){
+    currentColor++;
+    if (currentColor>5) currentColor=0;
+    let u = document.getElementById("text2");
+    u.style.color = colors[currentColor];
+}
+function change3(){
+    currentColor++;
+    if (currentColor>5) currentColor=0;
+    let k = document.getElementById("text3");
+    k.style.color = colors[currentColor];
 }
