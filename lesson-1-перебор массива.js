@@ -46,6 +46,15 @@ const data = [
     },
 ];
 
-data.forEach(function(item, i, data) {
-    alert( i + ": " + item + " (массив:" + data + ")" );
-});
+
+// for (const item of data) {
+//     data[item] = data[item] ? data[item] + 1 : 1;
+// }
+// const result = Object.keys(data).filter((item) => data[item] > 1);
+// console.log(result);
+//
+//
+//
+// data.forEach(function(item, i, data) {
+//     alert( i + ": " + item + " (массив:" + data + ")" );
+// });
