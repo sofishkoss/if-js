@@ -47,6 +47,8 @@ const data = [
 ];
 
 
+// console.log(data(country , city , hotel)); ***как нереформулировать, разобраться!!!!!!
+
 // for (const item of data) {
 //     data[item] = data[item] ? data[item] + 1 : 1;
 // }
