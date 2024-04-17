@@ -60,3 +60,11 @@ const data = [
 // data.forEach(function(item, i, data) {
 //     alert( i + ": " + item + " (массив:" + data + ")" );
 // });
+
+const searchArg='hotel'
+function dataTransformer (searchArg){
+
+    return data.map(i=>`${i.country},${i.city},${i.hotel}`)
+}
+
+console.log(dataTransformer(data))
