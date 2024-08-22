@@ -9,174 +9,174 @@
 // }
 
 
-
-const names = [
-    {
-        name: 'Hotel Leopold',
-        city: 'Saint Petersburg',
-        country: 'Russia',
-    },
-    {
-        name: 'Apartment Sunshine',
-        city: 'Santa Cruz de Tenerife',
-        country: 'Spain',
-    },
-    {
-        name: 'Villa Kunerad',
-        city: 'Vysokie Tatry',
-        country: 'Slowakia',
-    },
-    {
-        name: 'Hostel Friendship',
-        city: 'Berlin',
-        country: 'Germany',
-    },
-    {
-        name: 'Radisson Blu Hotel',
-        city: 'Kyiv',
-        country: 'Ukraine',
-    },
-    {
-        name: 'Paradise Hotel',
-        city: 'Guadalupe',
-        country: 'Mexico',
-    },
-    {
-        name: 'Hotel Grindewald',
-        city: 'Interlaken',
-        country: 'Switzerland',
-    },
-    {
-        name: 'The Andaman Resort',
-        city: 'Port Dickson',
-        country: 'Malaysia',
-    },
-    {
-        name: 'Virgin Hotel',
-        city: 'Chicago',
-        country: 'USA',
-    },
-    {
-        name: 'Grand Beach Resort',
-        city: 'Dubai',
-        country: 'United Arab Emirates',
-    },
-    {
-        name: 'Shilla Stay',
-        city: 'Seoul',
-        country: 'South Korea',
-    },
-    {
-        name: 'San Firenze Suites',
-        city: 'Florence',
-        country: 'Italy',
-    },
-    {
-        name: 'The Andaman Resort',
-        city: 'Port Dickson',
-        country: 'Malaysia',
-    },
-    {
-        name: 'Black Penny Villas',
-        city: 'BTDC, Nuca Dua',
-        country: 'Indonesia',
-    },
-    {
-        name: 'Koko Hotel',
-        city: 'Tokyo',
-        country: 'Japan',
-    },
-    {
-        name: 'Ramada Plaza',
-        city: 'Istanbul',
-        country: 'Turkey',
-    },
-    {
-        name: 'Waikiki Resort Hotel',
-        city: 'Hawaii',
-        country: 'USA',
-    },
-    {
-        name: 'Puro Hotel',
-        city: 'Krakow',
-        country: 'Poland',
-    },
-    {
-        name: 'Asma Suites',
-        city: 'Santorini',
-        country: 'Greece',
-    },
-    {
-        name: 'Cityden Apartments',
-        city: 'Amsterdam',
-        country: 'Netherlands',
-    },
-    {
-        name: 'Mandarin Oriental',
-        city: 'Miami',
-        country: 'USA',
-    },
-    {
-        name: 'Concept Terrace Hotel',
-        city: 'Rome',
-        country: 'Italy',
-    },
-    {
-        name: 'Ponta Mar Hotel',
-        city: 'Fortaleza',
-        country: 'Brazil',
-    },
-    {
-        name: 'Four Seasons Hotel',
-        city: 'Sydney',
-        country: 'Australia',
-    },
-    {
-        name: 'Le Meridien',
-        city: 'Nice',
-        country: 'France',
-    },
-    {
-        name: 'Apart Neptun',
-        city: 'Gdansk',
-        country: 'Poland',
-    },
-    {
-        name: 'Lux Isla',
-        city: 'Ibiza',
-        country: 'Spain',
-    },
-    {
-        name: 'Nox Hostel',
-        city: 'London',
-        country: 'UK',
-    },
-    {
-        name: 'Leonardo Vienna',
-        city: 'Vienna',
-        country: 'Austria',
-    },
-    {
-        name: 'Adagio Aparthotel',
-        city: 'Edinburgh',
-        country: 'UK',
-    },
-    {
-        name: 'Steigenberger Hotel',
-        city: 'Hamburg',
-        country: 'Germany',
-    },
-];
-
-
-const searchArg='name'
-function dataTransformer (searchArg){
-
-    return names.map(i=>`${i.country},${i.city},${i.name}`)
-}
-
-console.log(dataTransformer(names))
-
+//
+// const names = [
+//     {
+//         name: 'Hotel Leopold',
+//         city: 'Saint Petersburg',
+//         country: 'Russia',
+//     },
+//     {
+//         name: 'Apartment Sunshine',
+//         city: 'Santa Cruz de Tenerife',
+//         country: 'Spain',
+//     },
+//     {
+//         name: 'Villa Kunerad',
+//         city: 'Vysokie Tatry',
+//         country: 'Slowakia',
+//     },
+//     {
+//         name: 'Hostel Friendship',
+//         city: 'Berlin',
+//         country: 'Germany',
+//     },
+//     {
+//         name: 'Radisson Blu Hotel',
+//         city: 'Kyiv',
+//         country: 'Ukraine',
+//     },
+//     {
+//         name: 'Paradise Hotel',
+//         city: 'Guadalupe',
+//         country: 'Mexico',
+//     },
+//     {
+//         name: 'Hotel Grindewald',
+//         city: 'Interlaken',
+//         country: 'Switzerland',
+//     },
+//     {
+//         name: 'The Andaman Resort',
+//         city: 'Port Dickson',
+//         country: 'Malaysia',
+//     },
+//     {
+//         name: 'Virgin Hotel',
+//         city: 'Chicago',
+//         country: 'USA',
+//     },
+//     {
+//         name: 'Grand Beach Resort',
+//         city: 'Dubai',
+//         country: 'United Arab Emirates',
+//     },
+//     {
+//         name: 'Shilla Stay',
+//         city: 'Seoul',
+//         country: 'South Korea',
+//     },
+//     {
+//         name: 'San Firenze Suites',
+//         city: 'Florence',
+//         country: 'Italy',
+//     },
+//     {
+//         name: 'The Andaman Resort',
+//         city: 'Port Dickson',
+//         country: 'Malaysia',
+//     },
+//     {
+//         name: 'Black Penny Villas',
+//         city: 'BTDC, Nuca Dua',
+//         country: 'Indonesia',
+//     },
+//     {
+//         name: 'Koko Hotel',
+//         city: 'Tokyo',
+//         country: 'Japan',
+//     },
+//     {
+//         name: 'Ramada Plaza',
+//         city: 'Istanbul',
+//         country: 'Turkey',
+//     },
+//     {
+//         name: 'Waikiki Resort Hotel',
+//         city: 'Hawaii',
+//         country: 'USA',
+//     },
+//     {
+//         name: 'Puro Hotel',
+//         city: 'Krakow',
+//         country: 'Poland',
+//     },
+//     {
+//         name: 'Asma Suites',
+//         city: 'Santorini',
+//         country: 'Greece',
+//     },
+//     {
+//         name: 'Cityden Apartments',
+//         city: 'Amsterdam',
+//         country: 'Netherlands',
+//     },
+//     {
+//         name: 'Mandarin Oriental',
+//         city: 'Miami',
+//         country: 'USA',
+//     },
+//     {
+//         name: 'Concept Terrace Hotel',
+//         city: 'Rome',
+//         country: 'Italy',
+//     },
+//     {
+//         name: 'Ponta Mar Hotel',
+//         city: 'Fortaleza',
+//         country: 'Brazil',
+//     },
+//     {
+//         name: 'Four Seasons Hotel',
+//         city: 'Sydney',
+//         country: 'Australia',
+//     },
+//     {
+//         name: 'Le Meridien',
+//         city: 'Nice',
+//         country: 'France',
+//     },
+//     {
+//         name: 'Apart Neptun',
+//         city: 'Gdansk',
+//         country: 'Poland',
+//     },
+//     {
+//         name: 'Lux Isla',
+//         city: 'Ibiza',
+//         country: 'Spain',
+//     },
+//     {
+//         name: 'Nox Hostel',
+//         city: 'London',
+//         country: 'UK',
+//     },
+//     {
+//         name: 'Leonardo Vienna',
+//         city: 'Vienna',
+//         country: 'Austria',
+//     },
+//     {
+//         name: 'Adagio Aparthotel',
+//         city: 'Edinburgh',
+//         country: 'UK',
+//     },
+//     {
+//         name: 'Steigenberger Hotel',
+//         city: 'Hamburg',
+//         country: 'Germany',
+//     },
+// ];
+//
+//
+// const searchArg='name'
+// function dataTransformer (searchArg){
+//
+//     return names.map(i=>`${i.country},${i.city},${i.name}`)
+// }
+//
+// console.log(dataTransformer(names))
+//
 
 
 
@@ -192,3 +192,43 @@ console.log(dataTransformer(names))
 // }
 //
 // console.log(palindrome('98998989'));
+
+
+// const time = new Date().getHours();
+// let greeting;
+// if (time < 10) {
+//     greeting = "Good morning";
+// } else if (time < 20) {
+//     greeting = "Good day";
+// } else {
+//     greeting = "Good evening";
+// }
+// document.getElementById("demo").innerHTML = greeting;
+
+
+
+
+
+
+
+const time = new Date().getHours();
+let greeting;
+if (time < 10) {
+       greeting = "Good morning";
+}    else if ( time < 20) {
+    greeting = " Nice day";
+}    else if ( time < 24) {
+    greeting = "Late day";
+}     else {
+    greeting = "Good evening"
+}
+console.log(greeting , time)
+    // чтобы вывести 2 перем то между ними , !!!!
+
+
+
+// const a = 10;
+// const b = 7;
+// let c = (a * b)+b + a;
+// console.log(c)
+
