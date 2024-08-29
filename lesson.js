@@ -210,19 +210,19 @@
 
 
 
-
-const time = new Date().getHours();
-let greeting;
-if (time < 10) {
-       greeting = "Good morning";
-}    else if ( time < 20) {
-    greeting = " Nice day";
-}    else if ( time < 24) {
-    greeting = "Late day";
-}     else {
-    greeting = "Good evening"
-}
-console.log(greeting , time)
+//
+// const time = new Date().getHours();
+// let greeting;
+// if (time < 10) {
+//        greeting = "Good morning";
+// }    else if ( time < 20) {
+//     greeting = " Nice day";
+// }    else if ( time < 24) {
+//     greeting = "Late day";
+// }     else {
+//     greeting = "Good evening"
+// }
+// console.log(greeting , time)
     // чтобы вывести 2 перем то между ними , !!!!
 
 
@@ -232,3 +232,53 @@ console.log(greeting , time)
 // let c = (a * b)+b + a;
 // console.log(c)
 
+const studentsData = [
+    {
+        firstName: 'Василий',
+        lastName: 'Петров',
+        admissionYear: 2019,
+        courseName: 'Java',
+    },
+    {
+        firstName: 'Иван',
+        lastName: 'Иванов',
+        admissionYear: 2018,
+        courseName: 'JavaScript',
+    },
+    {
+        firstName: 'Александр',
+        lastName: 'Федоров',
+        admissionYear: 2017,
+        courseName: 'Python',
+    },
+    {
+        firstName: 'Николай',
+        lastName: 'Петров',
+        admissionYear: 2019,
+        courseName: 'Android',
+    }
+];
+
+
+class User {
+    constructor(firstName , lastName , fullName) {
+    this.firstName = 'firstName';
+    this.lastName = 'lastName';
+    this.fullName = `${(this.firstName = 'firstName')} ${(this.lastName = 'lastName')}`
+    }
+
+let fullName = ???
+// как сделать fullname он не выводиться
+
+
+}
+
+console.log(fullName)
+// class Student {
+//     constructor(admissionYear , courseName) {
+//         this.admissionYear = '2021';
+//         this.courseName = 'courseName';
+//     }
+// }
+//
+// return (${fullName} - ${courseName}, ${course})
