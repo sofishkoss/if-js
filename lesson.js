@@ -180,20 +180,20 @@
 
 
 
-
+//
 // function palindrome(str) {
 //     let check = '';
-
-
-
+//
+//
+//
 //
 // function palindrome(str) {
 //     return str.split('').reverse().join('') == str;
 // }
 //
-// console.log(palindrome('98998989'));
-
-
+// console.log(palindrome('20'));
+//
+//
 // const time = new Date().getHours();
 // let greeting;
 // if (time < 10) {
@@ -232,7 +232,7 @@
 // let c = (a * b)+b + a;
 // console.log(c)
 
-const studentsData = [
+let studentsData = [
     {
         firstName: 'Василий',
         lastName: 'Петров',
@@ -259,21 +259,43 @@ const studentsData = [
     }
 ];
 
-
 class User {
     constructor(firstName , lastName , fullName) {
-    this.firstName = 'firstName';
-    this.lastName = 'lastName';
-    this.fullName = `${(this.firstName = 'firstName')} ${(this.lastName = 'lastName')}`
+    this.firstName = firstName;
+    this.lastName = lastName;
     }
 
-let fullName = ???
-// как сделать fullname он не выводиться
-
-
+    get fullName(){
+        return `${(this.firstName)} ${(this.lastName)}`;
+    }
 }
+console.log(studentsData.fullName);
 
-console.log(fullName)
+
+
+// let user = {
+//     name: "John",
+//     surname: "Smith",
+//
+//     get fullName() {
+//         return `${this.name} ${this.surname}`;
+//     }
+// };
+//
+// console.log(user.fullName);
+
+// class Student {
+//     constructor (admissionYear , courseName , );
+//     course (getter, current year - admission year);
+//
+// }
+
+// function getInfo ${fullName};
+// console.log(fullName);
+// const students = new Students(studentsData);
+// console.log(students.getInfo());
+
+
 // class Student {
 //     constructor(admissionYear , courseName) {
 //         this.admissionYear = '2021';
@@ -282,3 +304,5 @@ console.log(fullName)
 // }
 //
 // return (${fullName} - ${courseName}, ${course})
+
+
