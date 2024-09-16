@@ -260,29 +260,21 @@ let studentsData = [
 ];
 
 class User {
-    constructor(firstName , lastName , fullName) {
+    constructor(firstName , lastName) {
     this.firstName = firstName;
     this.lastName = lastName;
+    // this.fullName = fullName;
     }
 
     get fullName(){
-        return `${(this.firstName)} ${(this.lastName)}`;
+        return `${this.firstName} ${this.lastName}`;
     }
 }
 console.log(studentsData.fullName);
 
 
 
-// let user = {
-//     name: "John",
-//     surname: "Smith",
-//
-//     get fullName() {
-//         return `${this.name} ${this.surname}`;
-//     }
-// };
-//
-// console.log(user.fullName);
+
 
 // class Student {
 //     constructor (admissionYear , courseName , );
@@ -306,3 +298,14 @@ console.log(studentsData.fullName);
 // return (${fullName} - ${courseName}, ${course})
 
 
+
+// let user = {
+//     name: "John",
+//     surname: "Smith",
+//
+//     get fullName() {
+//         return `${this.name} ${this.surname}`;
+//     }
+// };
+//
+// console.log(user.fullName);
